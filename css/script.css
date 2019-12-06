@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container.main {
+    display: flex;
+    height: 100vh;
+
+}
+
+.container {
+    
+}
+
+.left-side {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    background: black;
+    color: aqua;
+    flex: 1;
+        overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.right-side {
+    padding: 0.5rem 1rem;
+    background: aqua;
+    color: black;
+    flex: 3.5;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
